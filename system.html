@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <font face="Calibri" size="4">
+        <!--NAVBAR TITLE-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="home.html"><b>WATER MANAGEMENT</b></a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Work Order Management</a></li>
+                    <li><a href="#">Alarm Dispatch</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            User
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="login.html">Log Out</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li><a href="#">Switch Unit</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" action="/action_page.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </font>
+
+    <font face="Calibri" size="3">
+        <!--TABS-->
+        <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="home.html"><center>HOME</center></a></li>
+                <li><a href="reports.html"><center>REPORTS</center></a></li>
+                <li><a href="inventory.html"><center>INVENTORY</center></a></li>
+                <li><a href="workOrder.html"><center>WORK ORDER MANAGEMENT</center></a></li>
+                <li><a href="basicInformation.html"><center>BASIC INFORMATION</center></a></li>
+                <li class="active"><a href="system.html"><center>SYSTEM MANAGEMENT</center></a></li>
+                <li><a href="favourites.html"><center>FAVOURITES</center></a></li>
+            </ul>
+        </div>
+
+        <!-- SYSTEM MANAGEMENT -->
+        <div class="container col-md-10">
+            <!-- system management -->
+            <p><b>SYSTEM MANAGEMENT</b></p>
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/menuManagement.png" alt="Menu Management">
+                <h5>Menu Settings</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/roleManagement.png" alt="Role Management">
+                <h5>Roles Settings</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/userManagement.png" alt="User Management">
+                <h5>User Settings</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/notificationSettings.png" alt="Notification Settings">
+                <h5>Notifications Settings</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/parameterSettings.png" alt="Parameter Settings">
+                <h5>Parameter Settings</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/flowInterval.png" alt="Interval of Flow">
+                <h5>Flow Interval</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/logQuery.png" alt="Log Query">
+                <h5>Log Query</h5>
+            </button>
+
+            <button style="height:140px;width:140px">
+                <img src="../wwwroot/images/System Management/departmentManagement.png" alt="Department Management">
+                <h5>Department Settings</h5>
+            </button>
+
+        </div>
+    </font>
+</body>
+</html>
